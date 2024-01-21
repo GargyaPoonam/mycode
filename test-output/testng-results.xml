@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-12T21:38:42 IST" name="Default suite" finished-at="2024-01-12T21:38:53 IST" duration-ms="10628">
+    <groups>
+    </groups>
+    <test started-at="2024-01-12T21:38:42 IST" name="Default test" finished-at="2024-01-12T21:38:53 IST" duration-ms="10628">
+      <class name="ecommerceApp.com.Page1_testCase">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:ecommerceApp.com.Page1_testCase@3527942a]" started-at="2024-01-12T21:38:42 IST" name="getDriver" finished-at="2024-01-12T21:38:47 IST" duration-ms="5220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method signature="f()[pri:0, instance:ecommerceApp.com.Page1_testCase@3527942a]" started-at="2024-01-12T21:38:47 IST" name="f" finished-at="2024-01-12T21:38:53 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- ecommerceApp.com.Page1_testCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
