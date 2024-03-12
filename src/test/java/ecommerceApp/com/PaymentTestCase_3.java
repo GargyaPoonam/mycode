@@ -20,8 +20,8 @@ public class PaymentTestCase_3 extends Utility{
   @Test
   public void f() throws InterruptedException {
 	
-	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.androidsample.generalstore:id/spinnerCountry")));
+//	  wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.androidsample.generalstore:id/spinnerCountry")));
 
 	  driver.findElement(By.id("com.androidsample.generalstore:id/spinnerCountry")).click();
 	  Thread.sleep(1000);

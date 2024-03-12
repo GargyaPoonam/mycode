@@ -20,8 +20,15 @@ public class Utility {
 //	  caps.setCapability("app","Users/poonamsharma/Documents/resources/General-Store.apk");
 
 	  UiAutomator2Options option = new UiAutomator2Options();
-	  option.setDeviceName("Pixel_4_API_31");
-	  option.setChromedriverExecutable("/Users/poonamsharma/Downloads/chromedriver_mac_arm64 (1)/chromedriver");
+    //  FirefoxOptions options = new FirefoxOptions();
+    //  System.setProperty("webdriver.gecko.driver", "/Users/poonamsharma/Downloads/geckodriver");
+
+	  option.setDeviceName("Pixel_7_Pro_API_34");
+	
+	//  option.withBrowserName("firefox");
+	 // option.setChromedriverExecutable("/Users/poonamsharma/Downloads/chromedriver");
+	 
+
 //
 	  option.setApp("Users/poonamsharma/Documents/resources/General-Store.apk");
  driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),option);
