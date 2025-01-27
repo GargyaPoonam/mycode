@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecommerceApp.com.Page1_testCase">
+      <class name="ecommerceApp.com.webviewclass">
         <methods>
-          <include name="getDriver"/>
           <include name="f"/>
+          <include name="getDriver"/>
         </methods>
-      </class> <!-- ecommerceApp.com.Page1_testCase -->
+      </class> <!-- ecommerceApp.com.webviewclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

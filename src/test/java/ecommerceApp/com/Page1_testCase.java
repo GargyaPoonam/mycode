@@ -20,6 +20,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 
 public class Page1_testCase extends Utility{
+	 @SuppressWarnings("deprecation")	
   @Test
   public void f() throws InterruptedException, MalformedURLException {
 	  
